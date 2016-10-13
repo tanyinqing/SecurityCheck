@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gas.Securitycheck" >
+
+    <application
+        android:name="com.gas.Securitycheck.ServiceApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="主页面" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.Task"
+            android:label="任务" >
+        </activity>
+        <activity
+            android:name=".activity.State"
+            android:label="状态" >
+        </activity>
+        <activity
+            android:name=".activity.enterRegister"
+            android:label="入户签到" >
+        </activity>
+        <activity
+            android:name=".activity.DataInput"
+            android:label="数据录入" >
+        </activity>
+        <activity
+            android:name=".activity.HiddenDanger"
+            android:label="隐患记录" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item type="id" name="linToolBar">false</item>
+    <item type="id" name="imgHome">false</item>
+    <item type="id" name="imgClassify">false</item>
+    <item type="id" name="imgSearch">false</item>
+    <item type="id" name="imgShoppingCar">false</item>
+
+
+</resources>

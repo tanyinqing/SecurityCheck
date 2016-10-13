@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- app主色调 -->
+    <color name="app_color">#008c62</color>
+    <!-- 标题栏的颜色 -->
+    <color name="title_color">#0A9949</color>
+    <!-- 标题栏字体的颜色 -->
+    <color name="title_word_color">#FFFFFF</color>
+
+</resources>

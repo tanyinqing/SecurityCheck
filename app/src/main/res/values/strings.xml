@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">安检系统</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_task">Task</string>
+    <string name="title_activity_state">State</string>
+    <string name="title_activity_enter_register">enterRegister</string>
+    <string name="title_activity_data_input">DataInput</string>
+    <string name="title_activity_hidden_danger">HiddenDanger</string>
+
+    <string name="task_download">任务下载</string>
+</resources>
