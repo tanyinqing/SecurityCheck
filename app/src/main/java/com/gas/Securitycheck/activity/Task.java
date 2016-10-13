@@ -42,7 +42,7 @@ public class Task extends TitleBarActivity {
         initView();
     }
 
-    //加载底部导航栏
+
     private void initView() {
         if (isLoadBottomTab()) {
             View currentView = getWindow().getDecorView();
