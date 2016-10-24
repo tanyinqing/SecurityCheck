@@ -3,14 +3,14 @@
     package="com.gas.Securitycheck" >
 
     <application
-        android:name="com.gas.Securitycheck.ServiceApplication"
+        android:name=".ServiceApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".activity.MainActivity"
-            android:label="主页面" >
+            android:name=".activity.SignIn"
+            android:label="安检系统" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,20 +22,25 @@
             android:label="任务" >
         </activity>
         <activity
-            android:name=".activity.State"
-            android:label="状态" >
+            android:name=".activity.TaskList"
+            android:label="任务列表" >
         </activity>
         <activity
             android:name=".activity.enterRegister"
             android:label="入户签到" >
         </activity>
         <activity
-            android:name=".activity.DataInput"
-            android:label="数据录入" >
+            android:name=".activity.SecurityItem"
+            android:label="安检项" >
         </activity>
         <activity
-            android:name=".activity.HiddenDanger"
-            android:label="隐患记录" >
+            android:name=".activity.MainActivity"
+            android:label="主页面" >
+        </activity>
+        <activity
+            android:name=".activity.DangerIevel"
+            android:label="未使用"
+            >
         </activity>
     </application>
 

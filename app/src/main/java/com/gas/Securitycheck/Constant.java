@@ -5,8 +5,8 @@ package com.gas.Securitycheck;
  */
 public class Constant {
     public static final String prefName = "Securitycheck";
-    public static final String user_pref = "user";  //配置信息中用户值对应的键
-    public static final String session_pref = "JSESSIONID";   //配置信息中session值对应的键
+    public static final String user_pref = "user"; 
+    public static final String session_pref = "JSESSIONID";
 
     public static int defaultIndex;
     public static final int CLASSIFY = 2;

@@ -199,7 +199,7 @@ public abstract class BaseActivity extends FragmentActivity
                     startActivity(new Intent(BaseActivity.this, Task.class));
                     break;
                 case R.id.imgSearch:
-                     startActivity(new Intent(BaseActivity.this, State.class));
+                     startActivity(new Intent(BaseActivity.this, TaskList.class));
                     break;
                 case R.id.imgShoppingCar:
                      startActivity(new Intent(BaseActivity.this, enterRegister.class));

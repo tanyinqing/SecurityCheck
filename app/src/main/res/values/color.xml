@@ -7,4 +7,24 @@
     <!-- 标题栏字体的颜色 -->
     <color name="title_word_color">#FFFFFF</color>
 
+    <color name="typeface">#7e7e7e</color>
+    <!--海军色 -->
+    <color name="black">#000000</color>
+    <!--这是工程类型横线颜色  -->
+    <color name="hengxian_type">#ffe1e1e1</color>
+    <!--这是工程类型横线颜色  -->
+    <color name="white_zhende">#FAFAFA</color>
+    <!--黑色 -->
+    <color name="transparent">#00000000</color>
+
+    <!--重点户标红 -->
+    <color name="red">#e89116</color>
+    <!--微软雅黑Regular -->
+    <color name="YaHei">#555</color>
+    <!--红色边框 -->
+    <color name="RedFrame">#e63a3a</color>
+
+    <color name="lib_color_list_divider">#c4cbdd</color>
+
+
 </resources>

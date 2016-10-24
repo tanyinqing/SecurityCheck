@@ -6,23 +6,31 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ListView;
 
 import com.gas.Securitycheck.Constant;
 import com.gas.Securitycheck.R;
+import com.gas.Securitycheck.model.TaskListModel;
 import com.lidroid.xutils.view.annotation.ContentView;
 import com.lidroid.xutils.view.annotation.ViewInject;
 import com.lidroid.xutils.view.annotation.event.OnClick;
 
 @ContentView(R.layout.activity_state)
-public class State extends TitleBarActivity {
+public class TaskList extends TitleBarActivity {
     private final static Integer DEFAULT_INDEX = 3;
-    @ViewInject(R.id.tan)
+    private TaskListModel mTaskListModel;
+   /* @ViewInject(R.id.tan)
     private Button tan;
-
     @OnClick(R.id.tan)
     void JumpPage(View v){
         startActivityByClass(enterRegister.class);
-    }
+    }*/
+
+    @ViewInject(R.id.lv_details)//商品列表的显示
+    private ListView listProducts;
+
+
+
     @Override
     void setListeners() {
 
@@ -31,7 +39,7 @@ public class State extends TitleBarActivity {
     @Override
     void initDatas() {
         setButtonLeft("返回");
-        setTitle("状态");
+        setTitle("任务列表");
         setButtonRight("退出");
 
          /*
@@ -39,6 +47,9 @@ public class State extends TitleBarActivity {
          * 然后依次调用loadViewLayout()、findViewById()、processLogic()、setListener()
          */
         initView();
+        mTaskListModel = new TaskListModel(this);
+        //这个是商品的控件
+        listProducts.setAdapter(mTaskListModel.getGoodsAdapter());
     }
 
     private void initView() {

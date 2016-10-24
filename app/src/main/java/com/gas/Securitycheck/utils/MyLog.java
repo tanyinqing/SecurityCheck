@@ -6,12 +6,12 @@ import android.util.Log;
  * Created by Administrator on 2016/9/27 0027.
  */
 public class MyLog {
-    //¹ıÂË ·µ»ØµÄËùÓĞÊı¾İ
+    //è¿‡æ»¤ è¿”å›çš„æ‰€æœ‰æ•°æ®
     private static String TAG="tanyinqing";
-    //¹ıÂË ½Ó¿Ú·µ»ØµÄÍøÂçÏà¹ØµÄÊı¾İ
+    //è¿‡æ»¤ æ¥å£è¿”å›çš„ç½‘ç»œç›¸å…³çš„æ•°æ®
     private static String TAG1="tanyinqingWangLuoJieKou";
 
-    //¹Ø±ÕËùÓĞµÄLogÊı¾İµÄ´òÓ¡
+    //å…³é—­æ‰€æœ‰çš„Logæ•°æ®çš„æ‰“å°
     private static Boolean ifShow=true;
 
     public static void ShowLog(String content){

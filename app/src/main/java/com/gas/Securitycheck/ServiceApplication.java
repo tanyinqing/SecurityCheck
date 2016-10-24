@@ -15,7 +15,7 @@ import java.util.List;
  */
 public class ServiceApplication extends Application {
     private static ServiceApplication instance;
-    public static PreferenceUtil mPrefUtil;  //用于配制信息的业务类  继成了各种方法
+    public static PreferenceUtil mPrefUtil;
     private List<Activity> mActivityList;
 
     @Override
@@ -29,7 +29,7 @@ public class ServiceApplication extends Application {
         return instance;
     }
     /**
-     * 定义一个方法  来读取配置的信息的值
+     *
      *
      */
     public static String read_String(String store_id){
@@ -38,7 +38,7 @@ public class ServiceApplication extends Application {
     }
 
     /**
-     * 保存用户信息
+     * ??????????
      * @param u
      */
     public void saveUser(User u)
@@ -46,7 +46,7 @@ public class ServiceApplication extends Application {
         mPrefUtil.putSetting(Constant.user_pref, u);
     }
     /**
-     * 读取用户信息
+     *
      * @return
      */
     public User readUser()
@@ -56,7 +56,7 @@ public class ServiceApplication extends Application {
     }
 
     /**
-     * session信息
+     * session
      * @param
      */
     public void saveSession(String session)
@@ -70,7 +70,7 @@ public class ServiceApplication extends Application {
     }
 
     /**
-     * 注册和退出Activity
+     *
      * @param
      */
 

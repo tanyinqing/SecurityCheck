@@ -12,7 +12,6 @@ public class RegexUtil
         if (mobiles == null || "".equals(mobiles))
             return false;
        // Pattern p = Pattern.compile("^((13[0-9])|(15[^4,\\D])|(18[0,5-9]))\\d{8}$");
-        //下面这句话让147和177这个号段的电话号码可以顺利注册
         Pattern p= Pattern.compile("^1(3|4|5|7|8)\\d{9}$");
         //Pattern p=Pattern.compile("/^1(3|4|5|7|8)\\d{9}$/");
         Matcher m = p.matcher(mobiles);

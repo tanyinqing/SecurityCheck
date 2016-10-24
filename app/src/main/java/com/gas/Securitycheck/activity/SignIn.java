@@ -13,12 +13,12 @@ import com.lidroid.xutils.view.annotation.ViewInject;
 import com.lidroid.xutils.view.annotation.event.OnClick;
 
 @ContentView(R.layout.activity_hidden_danger)
-public class HiddenDanger extends TitleBarActivity {
+public class SignIn extends TitleBarActivity {
 
-    @ViewInject(R.id.tan)
-    private Button tan;
+    @ViewInject(R.id.buttonLogin)
+    private Button buttonLogin;
 
-    @OnClick(R.id.tan)
+    @OnClick(R.id.buttonLogin)
     void JumpPage(View v){
         startActivityByClass(MainActivity.class);
     }
@@ -31,7 +31,7 @@ public class HiddenDanger extends TitleBarActivity {
     @Override
     void initDatas() {
         setButtonLeft("返回");
-        setTitle("隐患记录");
+        setTitle("登录");
         setButtonRight("退出");
     }
     @Override

@@ -1,11 +1,9 @@
 package com.gas.Securitycheck.activity;
 
-import android.support.v7.app.ActionBarActivity;
-import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.Spinner;
 
 import com.gas.Securitycheck.Constant;
 import com.gas.Securitycheck.R;
@@ -16,13 +14,13 @@ import com.lidroid.xutils.view.annotation.event.OnClick;
 @ContentView(R.layout.activity_enter_register)
 public class enterRegister extends TitleBarActivity {
     private final static Integer DEFAULT_INDEX = 4;
-    @ViewInject(R.id.tan)
-    private Button tan;
 
+   /* @ViewInject(R.id.tan)
+    private Button tan;
     @OnClick(R.id.tan)
     void JumpPage(View v){
-        startActivityByClass(DataInput.class);
-    }
+        startActivityByClass(SecurityItem.class);
+    }*/
     @Override
     void setListeners() {
 
@@ -39,6 +37,9 @@ public class enterRegister extends TitleBarActivity {
          * 然后依次调用loadViewLayout()、findViewById()、processLogic()、setListener()
          */
         initView();
+        // 获取界面布局文件中的Spinner组件
+
+
     }
     private void initView() {
         if (isLoadBottomTab()) {
